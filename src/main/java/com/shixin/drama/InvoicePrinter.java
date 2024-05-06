@@ -3,7 +3,6 @@ package com.shixin.drama;
 import java.text.NumberFormat;
 import java.util.Locale;
 import java.util.Map;
-import java.util.stream.Collectors;
 
 public class InvoicePrinter {
     public String statement(Invoice invoice, Map<String, Play> plays) {
